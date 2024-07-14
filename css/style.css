@@ -1,0 +1,68 @@
+body {
+    scroll-behavior: smooth;
+    margin: 0;
+    background-color: #0D0D0D;
+    color: #f9f6f6 !important;
+}
+::-webkit-scrollbar {
+    width: 0.625rem;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--seconde-color);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--main-color);
+    border-radius: 50px;
+    box-shadow: 0 0 5px rgb(0 0 0 / 0.5) inset;
+}
+/*.................. loading ....................*/
+.inner-loading-screen {
+    position: absolute;
+    z-index: 9;
+    background-color: #0D0D0D;
+    display: flex;
+}
+.loading-screen {
+    z-index: 999;
+    display: flex;
+}
+/* ....................................nav................................... */
+.side-nav-menu {
+    z-index: 99;
+    display: flex;
+}
+
+.logo {
+    width: 50px;
+}
+.nav-tab {
+    background-color: #0D0D0D;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+.meal-layer {
+    width: 100%;
+    height: 100%;
+    background-color: #f9f6f6ca;
+    top: 100%;
+    transition: .5s;
+}
+.meal:hover .meal-layer {
+    top: 0;
+}
+.side-nav-menu {
+    left: -256.562px; 
+    transition: left 0.3s ease; 
+}
+i{
+    cursor: pointer;
+}
+::-webkit-input-placeholder
+{
+  color: #8e8e8e !important;
+  font-size: small;
+}
